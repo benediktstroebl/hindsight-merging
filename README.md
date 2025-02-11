@@ -18,6 +18,9 @@ This repository contains the code for the paper "Hindsight Merging: Diverse Data
 
 ### Reproduction Steps (General Outline):
 
+0. **Model Merging:**
+    *   Follow the instructions in (MergeKit)[https://github.com/arcee-ai/mergekit] to merge models with SLERP.
+
 1.  **Data Generation (`single_model_inference.py`):**
     *   Set environment variables such as `OPENAI_API_KEY` (if using OpenAI) and model paths.
     *   Adjust generation parameters like `MAX_TOKENS`, `NUM_SAMPLES`, `K`, and `P`.
