@@ -47,3 +47,4 @@ similarity_distribution_local.png
 similarity_distribution.png
 pass_at_k.png
 single_inference.sh
+SkyThought/skythought/train/LLaMA-Factory/.deepspeed_env
