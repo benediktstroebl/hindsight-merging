@@ -1,0 +1,133 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "sorry-bench-202406",
+  "dataset_size": 7943911,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/sorry-bench/sorry-bench-202406@b34822276edde97592eda99c0b56d306f8830469/question.jsonl": {
+      "num_bytes": 95971,
+      "checksum": null
+    },
+    "hf://datasets/sorry-bench/sorry-bench-202406@b34822276edde97592eda99c0b56d306f8830469/question_ascii.jsonl": {
+      "num_bytes": 1545143,
+      "checksum": null
+    },
+    "hf://datasets/sorry-bench/sorry-bench-202406@b34822276edde97592eda99c0b56d306f8830469/question_atbash.jsonl": {
+      "num_bytes": 1002333,
+      "checksum": null
+    },
+    "hf://datasets/sorry-bench/sorry-bench-202406@b34822276edde97592eda99c0b56d306f8830469/question_authority_endorsement.jsonl": {
+      "num_bytes": 342033,
+      "checksum": null
+    },
+    "hf://datasets/sorry-bench/sorry-bench-202406@b34822276edde97592eda99c0b56d306f8830469/question_caesar.jsonl": {
+      "num_bytes": 1039163,
+      "checksum": null
+    },
+    "hf://datasets/sorry-bench/sorry-bench-202406@b34822276edde97592eda99c0b56d306f8830469/question_evidence-based_persuasion.jsonl": {
+      "num_bytes": 412906,
+      "checksum": null
+    },
+    "hf://datasets/sorry-bench/sorry-bench-202406@b34822276edde97592eda99c0b56d306f8830469/question_expert_endorsement.jsonl": {
+      "num_bytes": 320054,
+      "checksum": null
+    },
+    "hf://datasets/sorry-bench/sorry-bench-202406@b34822276edde97592eda99c0b56d306f8830469/question_logical_appeal.jsonl": {
+      "num_bytes": 290193,
+      "checksum": null
+    },
+    "hf://datasets/sorry-bench/sorry-bench-202406@b34822276edde97592eda99c0b56d306f8830469/question_misrepresentation.jsonl": {
+      "num_bytes": 345271,
+      "checksum": null
+    },
+    "hf://datasets/sorry-bench/sorry-bench-202406@b34822276edde97592eda99c0b56d306f8830469/question_misspellings.jsonl": {
+      "num_bytes": 92768,
+      "checksum": null
+    },
+    "hf://datasets/sorry-bench/sorry-bench-202406@b34822276edde97592eda99c0b56d306f8830469/question_morse.jsonl": {
+      "num_bytes": 1481922,
+      "checksum": null
+    },
+    "hf://datasets/sorry-bench/sorry-bench-202406@b34822276edde97592eda99c0b56d306f8830469/question_question.jsonl": {
+      "num_bytes": 93279,
+      "checksum": null
+    },
+    "hf://datasets/sorry-bench/sorry-bench-202406@b34822276edde97592eda99c0b56d306f8830469/question_role_play.jsonl": {
+      "num_bytes": 150039,
+      "checksum": null
+    },
+    "hf://datasets/sorry-bench/sorry-bench-202406@b34822276edde97592eda99c0b56d306f8830469/question_slang.jsonl": {
+      "num_bytes": 87169,
+      "checksum": null
+    },
+    "hf://datasets/sorry-bench/sorry-bench-202406@b34822276edde97592eda99c0b56d306f8830469/question_technical_terms.jsonl": {
+      "num_bytes": 169020,
+      "checksum": null
+    },
+    "hf://datasets/sorry-bench/sorry-bench-202406@b34822276edde97592eda99c0b56d306f8830469/question_translate-fr.jsonl": {
+      "num_bytes": 114402,
+      "checksum": null
+    },
+    "hf://datasets/sorry-bench/sorry-bench-202406@b34822276edde97592eda99c0b56d306f8830469/question_translate-ml.jsonl": {
+      "num_bytes": 243004,
+      "checksum": null
+    },
+    "hf://datasets/sorry-bench/sorry-bench-202406@b34822276edde97592eda99c0b56d306f8830469/question_translate-mr.jsonl": {
+      "num_bytes": 204859,
+      "checksum": null
+    },
+    "hf://datasets/sorry-bench/sorry-bench-202406@b34822276edde97592eda99c0b56d306f8830469/question_translate-ta.jsonl": {
+      "num_bytes": 239293,
+      "checksum": null
+    },
+    "hf://datasets/sorry-bench/sorry-bench-202406@b34822276edde97592eda99c0b56d306f8830469/question_translate-zh-cn.jsonl": {
+      "num_bytes": 93605,
+      "checksum": null
+    },
+    "hf://datasets/sorry-bench/sorry-bench-202406@b34822276edde97592eda99c0b56d306f8830469/question_uncommon_dialects.jsonl": {
+      "num_bytes": 103714,
+      "checksum": null
+    }
+  },
+  "download_size": 8466141,
+  "features": {
+    "question_id": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "category": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "turns": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "prompt_style": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 16410052,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 7943911,
+      "num_examples": 9450,
+      "dataset_name": "sorry-bench-202406"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
