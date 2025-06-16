@@ -5,7 +5,7 @@ This repository contains the code for the paper "Hindsight Merging: Diverse Data
 ### Reproduction Instructions:
 
 0. **Model Merging:**
-    *   Follow the instructions in [MergeKit](https://github.com/arcee-ai/mergekit) to merge models with SLERP.
+    *   Follow the instructions in [mergekit](https://github.com/arcee-ai/mergekit) to merge models with LERP.
 
 1.  **Data Generation:**
     *   Follow the instructions in [evalplus](https://github.com/evalplus/evalplus).
